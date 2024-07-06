@@ -1,0 +1,80 @@
+body {
+    background-color:#737a6c;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: wrap;
+    color: rgb(0, 247, 255);
+}
+
+.form-container {
+    border:bisque; 
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #0000007a;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: wrap;
+}
+
+.column #number-input {
+    width: 200px;
+    height: 20px;
+    margin-top:1px;
+    background-color: #bcff04;
+}
+
+.column #operation-input {
+    width: 70px;
+    height: 20px;
+    margin-left: 130px;
+    margin-top: 2px;
+    background-color: #0011ff;
+}
+
+.column #previous {
+    width:120px;
+    height: 20px;
+    margin-right: 80px;
+    margin-top: 2px;
+    background-color: #0011ff;
+}
+
+button {
+    background-color: #ff00d4;
+   margin: 2px;
+    height: 50px;
+    width:50px;
+}
+
+.column .operation {
+    background-color: #ff9100;
+}
+
+.column .operation[onclick="equal()"] {
+    background-color: #1eff00;
+}
+
+.column .clear[onclick="clearInput()"] {
+    background-color: #ff0909;
+}
+
+
+
+
+
+
+
+
+
+
